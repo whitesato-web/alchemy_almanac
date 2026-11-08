@@ -1,4 +1,4 @@
-const CACHE_NAME = 'almanac-shell-v49';
+const CACHE_NAME = 'almanac-shell-v50';
 const APP_ASSETS = [
   './',
   './index.html',

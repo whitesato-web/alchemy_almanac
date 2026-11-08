@@ -318,15 +318,13 @@ h3 { font-size: 18px; }
 .field-wide { grid-column: 1 / -1; }
 .field-action { align-self: end; }
 .harvest-form .field-action {
-  grid-column: 1;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  gap: 8px;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 18px;
 }
 .harvest-form .field-action .button {
-  flex: 1 1 0;
-  min-width: 0;
+  width: 100%;
   padding-inline: 8px;
   text-align: center;
   white-space: normal;
@@ -490,8 +488,8 @@ h3 { font-size: 18px; }
   .panel { padding: 20px 4px 25px; }
   .form-grid { grid-template-columns: 1fr; gap: 12px; }
   .harvest-form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .harvest-form .field-action { gap: 5px; }
-  .harvest-form .field-action .button { width: auto; flex: 0 1 auto; padding-inline: 5px; font-size: 12px; }
+  .harvest-form .field-action { column-gap: 12px; }
+  .harvest-form .field-action .button { padding-inline: 5px; font-size: 12px; }
   .field-wide { grid-column: auto; }
   .inventory-entry-form { grid-template-columns: minmax(0, 1fr) auto; }
   .inventory-entry-form .field-wide { grid-column: 1 / -1; }
