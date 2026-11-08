@@ -1,0 +1,2918 @@
+[
+  {
+    "id": "pdf-recipe-001",
+    "name": "Acid, Phosphoric",
+    "pdfName": "Acid, Phosphoric",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Acid",
+      "Fire"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Corrosive chemical agent. Splashed or hurled (20 ft), dealing 1d6 acid damage on impact."
+  },
+  {
+    "id": "pdf-recipe-002",
+    "name": "Acid, Sulfuric",
+    "pdfName": "Acid, Sulfuric",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Acid",
+      "Fire",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Concentrated acid solution. Deals 2d4 acid damage on impact and dissolves nonmagical metal locks over 1 minute."
+  },
+  {
+    "id": "pdf-recipe-003",
+    "name": "Acid, Hydrochloric",
+    "pdfName": "Acid, Hydrochloric",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Acid",
+      "Water",
+      "Necrotic"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Highly reactive acid tincture. Deals 2d6 acid damage and bypasses stone/organic natural armor."
+  },
+  {
+    "id": "pdf-recipe-004",
+    "name": "Alchemist's Fire",
+    "pdfName": "Alchemist's Fire",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Fire",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "As an Action, hurl up to 20 feet. Target takes 1d4 fire damage at the start of each turn until extinguished."
+  },
+  {
+    "id": "pdf-recipe-005",
+    "name": "Alchemist's Tinder",
+    "pdfName": "Alchemist's Tinder",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Fire",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Ignites instantly when struck. Grants advantage on Wisdom (Survival) checks to kindle fires, even in wet conditions."
+  },
+  {
+    "id": "pdf-recipe-006",
+    "name": "Antitoxin",
+    "pdfName": "Antitoxin",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants advantage on saving throws against poison for 1 hour and cures one active nonmagical poison condition."
+  },
+  {
+    "id": "pdf-recipe-007",
+    "name": "Cat's Eye",
+    "pdfName": "Cat's Eye",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Mind",
+      "Necrotic"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Dilates pupils to grant Darkvision out to 60 feet for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-008",
+    "name": "Dragon Egg",
+    "pdfName": "Dragon Egg",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Creature",
+      "Necrotic",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "A volatile incendiary device. Explodes in a 10-foot radius for 3d6 fire damage (Dex save DC 13 for half)."
+  },
+  {
+    "id": "pdf-recipe-009",
+    "name": "Elixir of Health",
+    "pdfName": "Elixir of Health",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Earth",
+      "Life",
+      "Protection",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Cures any disease, blindness, deafness, and paralyzation affecting the imbiber."
+  },
+  {
+    "id": "pdf-recipe-010",
+    "name": "Flash Pellet",
+    "pdfName": "Flash Pellet",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Dropped or thrown at feet to create a sudden blinding burst. Creatures within 5 feet must make a DC 11 Constitution save or be blinded until the end of their next turn."
+  },
+  {
+    "id": "pdf-recipe-011",
+    "name": "Fortifying Powder",
+    "pdfName": "Fortifying Powder",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Mixed into food or drink; grants 1d6 temporary hit points for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-012",
+    "name": "Gunpowder (8lbs) ↑",
+    "pdfName": "Gunpowder (8lbs) ↑",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Earth",
+      "Air",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Explodes if exposed to flame or spark. Deals 3d6 bludgeoning damage in a 10-foot radius (DC 12 Dex save for half)."
+  },
+  {
+    "id": "pdf-recipe-013",
+    "name": "Liquid Courage",
+    "pdfName": "Liquid Courage",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants immunity to the frightened condition and 1d4 temporary hit points for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-014",
+    "name": "Morning Star",
+    "pdfName": "Morning Star",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Air",
+      "Radiant",
+      "Fire",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Illuminates a 30-foot area with bright solar light for 1 hour, dispelling nonmagical darkness."
+  },
+  {
+    "id": "pdf-recipe-015",
+    "name": "Oil of Darkness",
+    "pdfName": "Oil of Darkness",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Necrotic",
+      "Air",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats an object to radiate a 15-foot sphere of magical darkness for 10 minutes."
+  },
+  {
+    "id": "pdf-recipe-016",
+    "name": "Oil of Flame",
+    "pdfName": "Oil of Flame",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Fire",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats a weapon for 1 minute. Weapon attacks deal an extra 1d4 fire damage on hit."
+  },
+  {
+    "id": "pdf-recipe-017",
+    "name": "Oil of Keen Edge",
+    "pdfName": "Oil of Keen Edge",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Earth",
+      "Force",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats a piercing or slashing weapon for 1 hour. Weapon scores critical hits on a roll of 19 or 20."
+  },
+  {
+    "id": "pdf-recipe-018",
+    "name": "Oil of Invisibility",
+    "pdfName": "Oil of Invisibility",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Air",
+      "Necrotic",
+      "Phase",
+      "Transformation",
+      "Protection",
+      "Mind",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Smeared over a target's body (takes 1 minute). Target and equipment become invisible for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-019",
+    "name": "Oil of Levitation",
+    "pdfName": "Oil of Levitation",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Air",
+      "Movement",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Applied to boots or soles; target gains the effect of Levitate spell for 10 minutes."
+  },
+  {
+    "id": "pdf-recipe-020",
+    "name": "Oil of Light",
+    "pdfName": "Oil of Light",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life",
+      "Radiant"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats an object to emit bright light in a 20-foot radius and dim light for an additional 20 feet for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-021",
+    "name": "Oil of Magic Stones",
+    "pdfName": "Oil of Magic Stones",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Water",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats up to 3 pebbles. Thrown or slung pebbles deal 1d6 + spellcasting ability modifier magical damage."
+  },
+  {
+    "id": "pdf-recipe-022",
+    "name": "Oil of Magic Vestment",
+    "pdfName": "Oil of Magic Vestment",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Fire",
+      "Protection",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Applied to armor or clothing, granting +1 bonus to AC for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-023",
+    "name": "Oil of Magic Vestment, Greater",
+    "pdfName": "Oil of Magic Vestment, Greater",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Water",
+      "Air",
+      "Protection",
+      "Earth",
+      "Force",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Applied to armor or clothing, granting +2 bonus to AC for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-024",
+    "name": "Oil of Magic Vestment, Superior",
+    "pdfName": "Oil of Magic Vestment, Superior",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Water",
+      "Earth",
+      "Protection",
+      "Protection",
+      "Force",
+      "Force",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Applied to armor or clothing, granting +3 bonus to AC for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-025",
+    "name": "Oil of Sharpness, Lesser",
+    "pdfName": "Oil of Sharpness, Lesser",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Water",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats a weapon for 1 minute. Grants +1 bonus to attack rolls."
+  },
+  {
+    "id": "pdf-recipe-026",
+    "name": "Oil of Sharpness, Minor",
+    "pdfName": "Oil of Sharpness, Minor",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Air",
+      "Force",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats a weapon for 1 minute. Grants +1 bonus to attack and damage rolls."
+  },
+  {
+    "id": "pdf-recipe-027",
+    "name": "Oil of Sharpness",
+    "pdfName": "Oil of Sharpness",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Life",
+      "Necrotic",
+      "Force",
+      "Force",
+      "Arcane",
+      "Arcane",
+      "Protection",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats a weapon or 5 pieces of ammunition. Grants +3 bonus to attack and damage rolls for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-028",
+    "name": "Oil of Shillelagh",
+    "pdfName": "Oil of Shillelagh",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Applied to a wooden club or quarterstaff for 1 minute. Damage die becomes 1d8 bludgeoning and uses spellcasting modifier for attacks."
+  },
+  {
+    "id": "pdf-recipe-029",
+    "name": "Oil of Slipperiness",
+    "pdfName": "Oil of Slipperiness",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Necrotic",
+      "Movement",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Freedom of Movement effect for 8 hours or renders a floor 10-ft square slick as Grease."
+  },
+  {
+    "id": "pdf-recipe-030",
+    "name": "Philter of Love",
+    "pdfName": "Philter of Love",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Life",
+      "Necrotic",
+      "Mind",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Imbiber becomes charmed by the first creature seen after drinking for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-031",
+    "name": "Poison Smoke",
+    "pdfName": "Poison Smoke",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Necrotic",
+      "Poison",
+      "Air",
+      "Creature"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Creates a 10-foot cloud of toxic fog. Creatures inside take 2d4 poison damage (DC 13 Con save)."
+  },
+  {
+    "id": "pdf-recipe-032",
+    "name": "Pomander of Warding",
+    "pdfName": "Pomander of Warding",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Worn on belt; grants +1 bonus to saving throws against poison and disease for 24 hours."
+  },
+  {
+    "id": "pdf-recipe-033",
+    "name": "Potion of Ability Enhancement",
+    "pdfName": "Potion of Ability Enhancement",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Fire",
+      "Mind",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants advantage on checks for one chosen ability score for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-034",
+    "name": "Potion of Adaptation",
+    "pdfName": "Potion of Adaptation",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Fire",
+      "Protection",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Imbiber can breathe in any environment and gains resistance to extreme environmental temperatures for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-035",
+    "name": "Potion of Animal Friendship",
+    "pdfName": "Potion of Animal Friendship",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Life",
+      "Necrotic",
+      "Mind",
+      "Creature"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Casts Animal Friendship (DC 13 Wis save) when drunk."
+  },
+  {
+    "id": "pdf-recipe-036",
+    "name": "Potion of Arcane Armor",
+    "pdfName": "Potion of Arcane Armor",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants target base AC of 13 + Dexterity modifier (Mage Armor effect) for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-037",
+    "name": "Potion of Barkskin",
+    "pdfName": "Potion of Barkskin",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Earth",
+      "Air",
+      "Protection",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Target's AC cannot be less than 16 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-038",
+    "name": "Potion of Camouflage",
+    "pdfName": "Potion of Camouflage",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Skin shifts color to match environment. Grants advantage on Dexterity (Stealth) checks for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-039",
+    "name": "Potion of Clairvoyance",
+    "pdfName": "Potion of Clairvoyance",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Air",
+      "Necrotic",
+      "Mind",
+      "Mind",
+      "Phase",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Gives effects of the Clairvoyance spell for 10 minutes."
+  },
+  {
+    "id": "pdf-recipe-040",
+    "name": "Potion of Darkvision",
+    "pdfName": "Potion of Darkvision",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Necrotic"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Darkvision out to 60 feet for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-041",
+    "name": "Potion of Diminution",
+    "pdfName": "Potion of Diminution",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Earth",
+      "Life",
+      "Transformation",
+      "Transformation",
+      "Force",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Gives Enlarge/Reduce (Reduce option) effect for 1d4 hours."
+  },
+  {
+    "id": "pdf-recipe-042",
+    "name": "Potion of Displacement",
+    "pdfName": "Potion of Displacement",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Water",
+      "Air",
+      "Phase",
+      "Phase",
+      "Protection",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Projects an illusionary displacement; attack rolls against target have disadvantage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-043",
+    "name": "Potion of Faith Shielding",
+    "pdfName": "Potion of Faith Shielding",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Water",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants +2 bonus to AC for 10 minutes (Shield of Faith effect)."
+  },
+  {
+    "id": "pdf-recipe-044",
+    "name": "Potion of Gaseous Form",
+    "pdfName": "Potion of Gaseous Form",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Fire",
+      "Air",
+      "Transformation",
+      "Phase",
+      "Movement",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Transforms imbiber into misty cloud for 1 hour (Gaseous Form spell effect)."
+  },
+  {
+    "id": "pdf-recipe-045",
+    "name": "Potion of Growth",
+    "pdfName": "Potion of Growth",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Earth",
+      "Transformation",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Gives Enlarge/Reduce (Enlarge option) effect for 1d4 hours."
+  },
+  {
+    "id": "pdf-recipe-046",
+    "name": "Potion of Healing (Herbal Alchemy)",
+    "pdfName": "Potion of Healing",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Regains 2d4 + 2 hit points."
+  },
+  {
+    "id": "pdf-recipe-047",
+    "name": "Potion of Healing, Greater",
+    "pdfName": "Potion of Healing, Greater",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Air",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Regains 4d4 + 4 hit points."
+  },
+  {
+    "id": "pdf-recipe-048",
+    "name": "Potion of Healing, Superior",
+    "pdfName": "Potion of Healing, Superior",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Life",
+      "Earth",
+      "Water",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Regains 8d4 + 8 hit points."
+  },
+  {
+    "id": "pdf-recipe-049",
+    "name": "Potion of Healing, Supreme",
+    "pdfName": "Potion of Healing, Supreme",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Life",
+      "Life",
+      "Earth",
+      "Water",
+      "Protection",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Regains 10d4 + 20 hit points."
+  },
+  {
+    "id": "pdf-recipe-050",
+    "name": "Potion of Heroism",
+    "pdfName": "Potion of Heroism",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Fire",
+      "Earth",
+      "Life",
+      "Life",
+      "Protection",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants 10 temporary hit points and Bless spell effect for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-051",
+    "name": "Potion of Hope",
+    "pdfName": "Potion of Hope",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Fire",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Advantage on Wisdom saving throws and death saving throws for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-052",
+    "name": "Potion of Invisibility",
+    "pdfName": "Potion of Invisibility",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Water",
+      "Necrotic",
+      "Air",
+      "Phase",
+      "Transformation",
+      "Protection",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Imbiber becomes invisible for 1 hour. Ends early if attack or spell is cast."
+  },
+  {
+    "id": "pdf-recipe-053",
+    "name": "Potion of Invisibility from Undead",
+    "pdfName": "Potion of Invisibility from Undead",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Air",
+      "Necrotic",
+      "Protection",
+      "Creature"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Undead with Intelligence 8 or lower cannot see or perceive the imbiber for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-054",
+    "name": "Potion of Invulnerability",
+    "pdfName": "Potion of Invulnerability",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Fire",
+      "Earth",
+      "Protection",
+      "Protection",
+      "Force",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants resistance to all damage for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-055",
+    "name": "Potion of Levitation",
+    "pdfName": "Potion of Levitation",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Earth",
+      "Air",
+      "Movement",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Target can rise vertically up to 20 feet and remain suspended for 10 minutes."
+  },
+  {
+    "id": "pdf-recipe-056",
+    "name": "Potion of Longevity",
+    "pdfName": "Potion of Longevity",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Fire",
+      "Life",
+      "Life",
+      "Life",
+      "Transformation",
+      "Arcane",
+      "Arcane",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Reduces imbiber's physical age by 1d6 + 6 years."
+  },
+  {
+    "id": "pdf-recipe-057",
+    "name": "Potion of Magic Circle",
+    "pdfName": "Potion of Magic Circle",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Earth",
+      "Protection",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Poured on the ground to create a 10-foot radius Magic Circle protecting against fiends, undead, or fey for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-058",
+    "name": "Potion of Magic Strikes",
+    "pdfName": "Potion of Magic Strikes",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Air",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Unarmed strikes and weapon attacks count as magical for bypassing resistances for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-059",
+    "name": "Potion of Magic Strikes, Greater",
+    "pdfName": "Potion of Magic Strikes, Greater",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Life",
+      "Force",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Unarmed strikes and weapon attacks count as magical and deal +1 extra damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-060",
+    "name": "Potion of Magic Strikes, Superior",
+    "pdfName": "Potion of Magic Strikes, Superior",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Earth",
+      "Life",
+      "Force",
+      "Force",
+      "Arcane",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Unarmed strikes and weapon attacks count as magical and deal +2 extra force damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-061",
+    "name": "Potion of Mind Reading",
+    "pdfName": "Potion of Mind Reading",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Air",
+      "Life",
+      "Mind",
+      "Mind",
+      "Phase",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants the effect of Detect Thoughts spell for 10 minutes."
+  },
+  {
+    "id": "pdf-recipe-062",
+    "name": "Potion of Misdirection",
+    "pdfName": "Potion of Misdirection",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Life",
+      "Mind",
+      "Phase"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Divination spells targeting imbiber return false or misleading information for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-063",
+    "name": "Potion of Nondetection",
+    "pdfName": "Potion of Nondetection",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Life",
+      "Necrotic",
+      "Protection",
+      "Phase"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Nondetection spell effect for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-064",
+    "name": "Potion of Poison",
+    "pdfName": "Potion of Poison",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Necrotic",
+      "Poison",
+      "Life",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Looks like a Potion of Healing; deals 3d6 poison damage on consumption and poisons target (DC 13 Con save)."
+  },
+  {
+    "id": "pdf-recipe-065",
+    "name": "Potion of Protection from Arrows",
+    "pdfName": "Potion of Protection from Arrows",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Earth",
+      "Air",
+      "Protection",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants resistance to nonmagical ranged weapon damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-066",
+    "name": "Potion of Protection from Evil and Good",
+    "pdfName": "Potion of Protection from Evil and Good",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life",
+      "Necrotic",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Protection from Evil and Good spell effect for 10 minutes."
+  },
+  {
+    "id": "pdf-recipe-067",
+    "name": "Potion of Protection from Poison",
+    "pdfName": "Potion of Protection from Poison",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life",
+      "Necrotic",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Cures one poison and gives resistance to poison damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-068",
+    "name": "Potion of Rage",
+    "pdfName": "Potion of Rage",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Necrotic",
+      "Force",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Target gains Barbarian Rage bonuses (+2 melee damage, resistance to bludgeoning/piercing/slashing) for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-069",
+    "name": "Potion of Remove Curse",
+    "pdfName": "Potion of Remove Curse",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Water",
+      "Life",
+      "Radiant",
+      "Transformation",
+      "Protection",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Lifts all curses affecting the imbiber or cursed items touched."
+  },
+  {
+    "id": "pdf-recipe-070",
+    "name": "Potion of Resistance",
+    "pdfName": "Potion of Resistance",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Earth",
+      "Protection",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants resistance to one elemental damage type (chosen during crafting) for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-071",
+    "name": "Potion of Restoration",
+    "pdfName": "Potion of Restoration",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Fire",
+      "Life",
+      "Life",
+      "Radiant",
+      "Protection",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Removes one exhaustion level, cures paralysis/petrification, or restores reduced ability scores."
+  },
+  {
+    "id": "pdf-recipe-072",
+    "name": "Potion of Sanctuary",
+    "pdfName": "Potion of Sanctuary",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Water",
+      "Life",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Sanctuary spell effect (DC 13 Wis save) for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-073",
+    "name": "Potion of Speed",
+    "pdfName": "Potion of Speed",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Fire",
+      "Air",
+      "Movement",
+      "Movement",
+      "Life",
+      "Force",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Haste spell effect for 1 minute (no concentration required)."
+  },
+  {
+    "id": "pdf-recipe-074",
+    "name": "Potion of Springing",
+    "pdfName": "Potion of Springing",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Fire",
+      "Movement"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Triples jump distance for 1 hour (Jump spell effect)."
+  },
+  {
+    "id": "pdf-recipe-075",
+    "name": "Potion of Tongues",
+    "pdfName": "Potion of Tongues",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Necrotic",
+      "Mind",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants ability to understand and speak any spoken language for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-076",
+    "name": "Potion of Water Breathing",
+    "pdfName": "Potion of Water Breathing",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Air",
+      "Life",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Imbiber can breathe underwater for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-077",
+    "name": "Potion of Water Walk",
+    "pdfName": "Potion of Water Walk",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Water",
+      "Air",
+      "Movement",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Allows walking across liquid surfaces (water, mud, acid) as if solid ground for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-078",
+    "name": "Smokestick",
+    "pdfName": "Smokestick",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Water",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Ignited as an Action; creates a 20-foot cube of thick smoke obscuring vision for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-079",
+    "name": "Tanglefoot Bag",
+    "pdfName": "Tanglefoot Bag",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Hurled (20 ft); bursts into sticky resin. Target must succeed a DC 12 Dex save or be restrained for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-080",
+    "name": "Thunderstone",
+    "pdfName": "Thunderstone",
+    "type": "herbalAlchemy",
+    "tableName": "Herbal Alchemy",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Air",
+      "Thunder"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Hurled (20 ft); shatters with concussive sonic blast. Creatures within 10 feet take 1d6 thunder damage and fall prone (DC 11 Con save)."
+  },
+  {
+    "id": "pdf-recipe-081",
+    "name": "Acid, Phosphoric (Tissue Transmutation)",
+    "pdfName": "Acid, Phosphoric",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Acid",
+      "Creature"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Extracted biological acid. Deals 2d4 acid damage on contact and dissolves organic tissue."
+  },
+  {
+    "id": "pdf-recipe-082",
+    "name": "Draught of Fine Fettle",
+    "pdfName": "Draught of Fine Fettle",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Life",
+      "Creature",
+      "Protection",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Cures exhaustion and grants temporary immunity to poisons and diseases for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-083",
+    "name": "Oil of Etherealness",
+    "pdfName": "Oil of Etherealness",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Phase",
+      "Phase",
+      "Creature",
+      "Arcane",
+      "Arcane",
+      "Air",
+      "Transformation",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats target body; grants Etherealness spell effect for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-084",
+    "name": "Potion of Aggression",
+    "pdfName": "Potion of Aggression",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Creature",
+      "Movement"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Target can use a Bonus Action to move up to its speed toward an enemy for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-085",
+    "name": "Potion of Animal Friendship (Tissue Transmutation)",
+    "pdfName": "Potion of Animal Friendship",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Mind",
+      "Life",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Extracted beast pheromones charm beasts (DC 13 Wis save) for 24 hours."
+  },
+  {
+    "id": "pdf-recipe-086",
+    "name": "Potion of Blindsight, Superior",
+    "pdfName": "Potion of Blindsight, Superior",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Mind",
+      "Air",
+      "Mind",
+      "Protection",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Synthesized bat/grimlock tissue grants Blindsight out to 60 feet for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-087",
+    "name": "Potion of Broodguard Transformation",
+    "pdfName": "Potion of Broodguard Transformation",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Transformation",
+      "Poison",
+      "Necrotic",
+      "Earth",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Yuan-ti mutagen mutating target into a loyal broodguard over 1 hour."
+  },
+  {
+    "id": "pdf-recipe-088",
+    "name": "Potion of Climbing",
+    "pdfName": "Potion of Climbing",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Movement",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants climbing speed equal to walking speed for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-089",
+    "name": "Potion of Darkvision (Tissue Transmutation)",
+    "pdfName": "Potion of Darkvision",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Creature",
+      "Necrotic"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from nocturnal fauna eyes; grants Darkvision 60 ft for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-090",
+    "name": "Potion of Darkvision, Superior",
+    "pdfName": "Potion of Darkvision, Superior",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Necrotic",
+      "Mind",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Darkvision 120 ft that penetrates magical darkness for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-091",
+    "name": "Potion of Elven Enmity",
+    "pdfName": "Potion of Elven Enmity",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Creature",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Drow concoction; grants advantage on weapon attack rolls against elves for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-092",
+    "name": "Potion of Evasion",
+    "pdfName": "Potion of Evasion",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Movement",
+      "Protection",
+      "Air",
+      "Force",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants Rogue Evasion feature (no damage on successful Dex save) for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-093",
+    "name": "Potion of Fire Breath",
+    "pdfName": "Potion of Fire Breath",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Creature",
+      "Force",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Allows exhaling fire up to 3 times (4d6 fire damage, 30-ft reach, Dex save DC 13)."
+  },
+  {
+    "id": "pdf-recipe-094",
+    "name": "Potion of Flying",
+    "pdfName": "Potion of Flying",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Air",
+      "Creature",
+      "Movement",
+      "Force",
+      "Arcane",
+      "Arcane",
+      "Transformation",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants flying speed equal to walking speed (hover) for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-095",
+    "name": "Potion of Fungal Immunity",
+    "pdfName": "Potion of Fungal Immunity",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Protection",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants immunity to fungal spores and myconid toxins for 8 hours."
+  },
+  {
+    "id": "pdf-recipe-096",
+    "name": "Potion of Giant Strength, Cloud",
+    "pdfName": "Potion of Giant Strength, Cloud",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Force",
+      "Force",
+      "Earth",
+      "Air",
+      "Transformation",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Sets Strength score to 27 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-097",
+    "name": "Potion of Giant Strength, Fire",
+    "pdfName": "Potion of Giant Strength, Fire",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Fire",
+      "Force",
+      "Earth",
+      "Transformation",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Sets Strength score to 25 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-098",
+    "name": "Potion of Giant Strength, Frost",
+    "pdfName": "Potion of Giant Strength, Frost",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Cold",
+      "Force",
+      "Earth",
+      "Transformation",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Sets Strength score to 23 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-099",
+    "name": "Potion of Giant Strength, Hill",
+    "pdfName": "Potion of Giant Strength, Hill",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Earth",
+      "Force",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Sets Strength score to 21 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-100",
+    "name": "Potion of Giant Strength, Stone",
+    "pdfName": "Potion of Giant Strength, Stone",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Earth",
+      "Earth",
+      "Force",
+      "Transformation",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Sets Strength score to 23 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-101",
+    "name": "Potion of Giant Strength, Storm",
+    "pdfName": "Potion of Giant Strength, Storm",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Lightning",
+      "Lightning",
+      "Force",
+      "Force",
+      "Transformation",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Sets Strength score to 29 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-102",
+    "name": "Potion of Growth (Tissue Transmutation)",
+    "pdfName": "Potion of Growth",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Transformation",
+      "Earth",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Target size doubles (Enlarge effect) for 1d4 hours."
+  },
+  {
+    "id": "pdf-recipe-103",
+    "name": "Potion of Gruumsh's Fury",
+    "pdfName": "Potion of Gruumsh's Fury",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Fire",
+      "Force",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Orcish blood elixir. Weapon hits deal +1d6 extra damage for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-104",
+    "name": "Potion of Healing (Tissue Transmutation)",
+    "pdfName": "Potion of Healing",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life",
+      "Creature"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Regains 2d4 + 2 hit points."
+  },
+  {
+    "id": "pdf-recipe-105",
+    "name": "Potion of Healing, Supreme (Tissue Transmutation)",
+    "pdfName": "Potion of Healing, Supreme",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Life",
+      "Life",
+      "Creature",
+      "Creature",
+      "Arcane",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Regains 10d4 + 20 hit points."
+  },
+  {
+    "id": "pdf-recipe-106",
+    "name": "Potion of Hrugguk",
+    "pdfName": "Potion of Hrugguk",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Earth",
+      "Force",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Bugbear blood extract; weapon critical hits deal an additional weapon damage die for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-107",
+    "name": "Potion of Immunity, Acid",
+    "pdfName": "Potion of Immunity, Acid",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Acid",
+      "Creature",
+      "Protection",
+      "Protection",
+      "Transformation",
+      "Transformation",
+      "Arcane",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants complete immunity to Acid damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-108",
+    "name": "Potion of Immunity, Cold",
+    "pdfName": "Potion of Immunity, Cold",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Cold",
+      "Creature",
+      "Protection",
+      "Protection",
+      "Transformation",
+      "Transformation",
+      "Arcane",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants complete immunity to Cold damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-109",
+    "name": "Potion of Immunity, Fire",
+    "pdfName": "Potion of Immunity, Fire",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Fire",
+      "Creature",
+      "Protection",
+      "Protection",
+      "Transformation",
+      "Transformation",
+      "Arcane",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants complete immunity to Fire damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-110",
+    "name": "Potion of Immunity, Lightning",
+    "pdfName": "Potion of Immunity, Lightning",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Lightning",
+      "Creature",
+      "Protection",
+      "Protection",
+      "Transformation",
+      "Transformation",
+      "Arcane",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants complete immunity to Lightning damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-111",
+    "name": "Potion of Invisibility (Tissue Transmutation)",
+    "pdfName": "Potion of Invisibility",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Phase",
+      "Air",
+      "Necrotic",
+      "Transformation",
+      "Protection",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Displacer beast / invisible stalker essence rendering user invisible for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-112",
+    "name": "Potion of Magic Resistance",
+    "pdfName": "Potion of Magic Resistance",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Protection",
+      "Protection",
+      "Mind",
+      "Arcane",
+      "Arcane",
+      "Force",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants advantage on all saving throws against spells and magical effects for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-113",
+    "name": "Potion of Mind Reading (Tissue Transmutation)",
+    "pdfName": "Potion of Mind Reading",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Mind",
+      "Mind",
+      "Phase",
+      "Arcane",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Extracted mind flayer gland; grants Detect Thoughts effect for 10 minutes."
+  },
+  {
+    "id": "pdf-recipe-114",
+    "name": "Potion of Nomog-Geaya",
+    "pdfName": "Potion of Nomog-Geaya",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Protection",
+      "Force",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Hobgoblin martial formula; grants +2 bonus to AC when adjacent to an ally for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-115",
+    "name": "Potion of Polymorph",
+    "pdfName": "Potion of Polymorph",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Transformation",
+      "Transformation",
+      "Life",
+      "Arcane",
+      "Arcane",
+      "Force",
+      "Mind"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Transforms imbiber into a beast of CR 6 or lower for 1 hour (Polymorph spell effect)."
+  },
+  {
+    "id": "pdf-recipe-116",
+    "name": "Potion of Protection from Poison (Tissue Transmutation)",
+    "pdfName": "Potion of Protection from Poison",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Creature",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from viper venom glands; cures poison and grants resistance to poison damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-117",
+    "name": "Potion of Raise Undead",
+    "pdfName": "Potion of Raise Undead",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Necrotic",
+      "Necrotic",
+      "Arcane",
+      "Life",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Poured over corpse; animates it as a Skeleton or Zombie under creator control for 24 hours."
+  },
+  {
+    "id": "pdf-recipe-118",
+    "name": "Potion of Rampage",
+    "pdfName": "Potion of Rampage",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Movement",
+      "Life",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Gnoll essence; when reducing a target to 0 hit points, can move up to half speed and make a bonus attack."
+  },
+  {
+    "id": "pdf-recipe-119",
+    "name": "Potion of Recall",
+    "pdfName": "Potion of Recall",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Mind",
+      "Protection",
+      "Movement"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Minotaur brain tissue potion; imbiber perfectly recalls pathways traversed over the last 30 days."
+  },
+  {
+    "id": "pdf-recipe-120",
+    "name": "Potion of Recklessness",
+    "pdfName": "Potion of Recklessness",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Creature",
+      "Force",
+      "Life",
+      "Fire"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants advantage on melee attack rolls, but attack rolls against imbiber have advantage for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-121",
+    "name": "Potion of Resistance, Cold",
+    "pdfName": "Potion of Resistance, Cold",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Cold",
+      "Creature",
+      "Protection",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from winter wolf fat; grants resistance to Cold damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-122",
+    "name": "Potion of Resistance, Fire",
+    "pdfName": "Potion of Resistance, Fire",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Creature",
+      "Protection",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from remorhaz gland; grants resistance to Fire damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-123",
+    "name": "Potion of Resistance, Lightning",
+    "pdfName": "Potion of Resistance, Lightning",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Lightning",
+      "Creature",
+      "Protection",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from behir scale; grants resistance to Lightning damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-124",
+    "name": "Potion of Resistance, Necrotic",
+    "pdfName": "Potion of Resistance, Necrotic",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Necrotic",
+      "Creature",
+      "Protection",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from ghoul marrow; grants resistance to Necrotic damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-125",
+    "name": "Potion of Resistance, Poison",
+    "pdfName": "Potion of Resistance, Poison",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Poison",
+      "Creature",
+      "Protection",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from wyvern bile; grants resistance to Poison damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-126",
+    "name": "Potion of Resistance, Psychic",
+    "pdfName": "Potion of Resistance, Psychic",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Mind",
+      "Creature",
+      "Protection",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Derived from intellect devourer fluid; grants resistance to Psychic damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-127",
+    "name": "Potion of Shadow",
+    "pdfName": "Potion of Shadow",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Necrotic",
+      "Creature",
+      "Phase",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Shadow fluid blend; imbiber can hide in dim light or shadow as a Bonus Action for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-128",
+    "name": "Potion of Shadow Teleportation",
+    "pdfName": "Potion of Shadow Teleportation",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Phase",
+      "Phase",
+      "Necrotic",
+      "Creature",
+      "Movement",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Allows teleporting up to 60 feet from shadow to shadow as a Bonus Action for 1 minute."
+  },
+  {
+    "id": "pdf-recipe-129",
+    "name": "Potion of Spider Climb",
+    "pdfName": "Potion of Spider Climb",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Movement",
+      "Earth",
+      "Creature",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Ettercap / giant spider gland extract; allows walking on vertical surfaces and ceilings for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-130",
+    "name": "Potion of Tarrasque Constitution",
+    "pdfName": "Potion of Tarrasque Constitution",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Life",
+      "Life",
+      "Protection",
+      "Protection",
+      "Earth",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants 30 temporary hit points and advantage on Constitution saving throws for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-131",
+    "name": "Potion of Tarrasque Strength",
+    "pdfName": "Potion of Tarrasque Strength",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Force",
+      "Force",
+      "Earth",
+      "Earth",
+      "Transformation",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Sets Strength score to 30 for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-132",
+    "name": "Potion of Tremorsense",
+    "pdfName": "Potion of Tremorsense",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Earth",
+      "Earth",
+      "Creature",
+      "Mind",
+      "Mind",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Bucelette organ brew; grants Tremorsense out to 60 feet for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-133",
+    "name": "Potion of Truesight",
+    "pdfName": "Potion of Truesight",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Creature",
+      "Mind",
+      "Mind",
+      "Radiant",
+      "Phase",
+      "Transformation",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Nothic / celestial eye brew; grants Truesight out to 120 feet for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-134",
+    "name": "Potion of Ultimate Resilience",
+    "pdfName": "Potion of Ultimate Resilience",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Protection",
+      "Protection",
+      "Life",
+      "Life",
+      "Earth",
+      "Creature",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants resistance to bludgeoning, piercing, and slashing damage for 1 hour."
+  },
+  {
+    "id": "pdf-recipe-135",
+    "name": "Potion of Vitality",
+    "pdfName": "Potion of Vitality",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Life",
+      "Creature",
+      "Protection",
+      "Transformation",
+      "Arcane",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Cures all diseases and poisons, removes all exhaustion, and maximizes any hit points gained from healing for 24 hours."
+  },
+  {
+    "id": "pdf-recipe-136",
+    "name": "Stone Salve",
+    "pdfName": "Stone Salve",
+    "type": "tissueTransmutation",
+    "tableName": "Tissue Transmutation",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Earth",
+      "Transformation",
+      "Life",
+      "Water",
+      "Protection",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Smeared over a petrified creature; cures petrification over 1 minute."
+  },
+  {
+    "id": "keyword-example-arcane-dust",
+    "name": "Arcane Dust",
+    "pdfName": "Arcane Dust",
+    "type": "intermediate",
+    "tableName": "Keyword crafting example",
+    "tool": "Alchemist's supplies",
+    "outputType": "intermediate",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Fire",
+      "Air",
+      "Earth",
+      "Water"
+    ],
+    "outputKeywords": [
+      "Arcane",
+      "Force",
+      "Light",
+      "Mind"
+    ],
+    "fullEffect": "A concentrated intermediate catalyst; its Arcane keyword can fuel a higher-tier recipe."
+  },
+  {
+    "id": "rec-heal-001",
+    "name": "Potion of Healing",
+    "pdfName": "Potion of Healing",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "As a Bonus Action, drink or administer within 5 feet. Regains 2d4 + 2 Hit Points."
+  },
+  {
+    "id": "rec-heal-002",
+    "name": "Potion of Healing (Greater)",
+    "pdfName": "Potion of Healing (Greater)",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Water",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "As a Bonus Action, drink or administer within 5 feet. Regains 4d4 + 4 Hit Points."
+  },
+  {
+    "id": "rec-heal-003",
+    "name": "Potion of Healing (Superior)",
+    "pdfName": "Potion of Healing (Superior)",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Life",
+      "Earth",
+      "Water",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "As a Bonus Action, drink or administer within 5 feet. Regains 8d4 + 8 Hit Points."
+  },
+  {
+    "id": "rec-heal-004",
+    "name": "Potion of Healing (Supreme)",
+    "pdfName": "Potion of Healing (Supreme)",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Life",
+      "Life",
+      "Earth",
+      "Water",
+      "Protection",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "As a Bonus Action, drink or administer within 5 feet. Regains 10d4 + 20 Hit Points."
+  },
+  {
+    "id": "rec-elem-001",
+    "name": "Alchemist's Fire (Standard)",
+    "pdfName": "Alchemist's Fire",
+    "type": "Flask",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Fire",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "As an Action, hurl up to 20 feet. Target takes 1d4 fire damage at the start of each turn until extinguished."
+  },
+  {
+    "id": "rec-elem-002",
+    "name": "Acid Flask (Standard)",
+    "pdfName": "Acid Flask",
+    "type": "Flask",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Acid",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "As an Action, splash target within 5 feet or hurl 20 feet. Deals 2d6 acid damage on impact."
+  },
+  {
+    "id": "rec-elem-003",
+    "name": "Shocking Spark Flask",
+    "pdfName": "Shocking Spark Flask",
+    "type": "Flask",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Lightning",
+      "Air",
+      "Force",
+      "Fire"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Hurl up to 30 feet. Explodes in a 5-foot radius dealing 2d6 lightning damage (Dex save DC 12 for half)."
+  },
+  {
+    "id": "rec-elem-004",
+    "name": "Frostbite Salve",
+    "pdfName": "Frostbite Salve",
+    "type": "Oil",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Cold",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats a weapon for 1 minute. Hits deal +1d4 cold damage and reduce target speed by 10 feet until next turn."
+  },
+  {
+    "id": "rec-util-001",
+    "name": "Potion of Climbing (Standard)",
+    "pdfName": "Potion of Climbing",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Movement",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Gives climbing speed equal to walking speed for 1 hour, with advantage on Athletics checks to climb."
+  },
+  {
+    "id": "rec-util-002",
+    "name": "Potion of Water Breathing (Standard)",
+    "pdfName": "Potion of Water Breathing",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Air",
+      "Water",
+      "Life",
+      "Transformation"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Imbiber can breathe underwater for 1 hour."
+  },
+  {
+    "id": "rec-util-003",
+    "name": "Brew of the Burrower",
+    "pdfName": "Brew of the Burrower",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Movement",
+      "Earth",
+      "Earth",
+      "Protection"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Gives burrowing speed of 10 feet through loose earth for 10 minutes."
+  },
+  {
+    "id": "rec-util-004",
+    "name": "Tonic of Iron Flesh",
+    "pdfName": "Tonic of Iron Flesh",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Protection",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Grants +1 AC and 1d6 + 2 temporary hit points for 1 hour."
+  },
+  {
+    "id": "rec-util-005",
+    "name": "Flask of Echolocation",
+    "pdfName": "Flask of Echolocation",
+    "type": "Potion",
+    "tableName": "Standard Recipes",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Mind",
+      "Air",
+      "Creature",
+      "Force"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Emits rapid clicks granting Blindsight out to 30 feet for 1 hour while not deafened."
+  },
+  {
+    "id": "rec-syn-001",
+    "name": "Arcane Catalyst Dust",
+    "pdfName": "Arcane Catalyst Dust",
+    "type": "Intermediate",
+    "tableName": "Synthesis Loops",
+    "tool": "Alchemist's supplies",
+    "outputType": "intermediate",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Earth",
+      "Water",
+      "Air",
+      "Fire"
+    ],
+    "outputKeywords": [
+      "Arcane",
+      "Force",
+      "Protection"
+    ],
+    "fullEffect": "Fuses the 4 elemental bases into a concentrated intermediate dust providing the [Arcane] keyword."
+  },
+  {
+    "id": "rec-syn-002",
+    "name": "Void-Glass Powder",
+    "pdfName": "Void-Glass Powder",
+    "type": "Intermediate",
+    "tableName": "Synthesis Loops",
+    "tool": "Alchemist's supplies",
+    "outputType": "intermediate",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Phase",
+      "Phase",
+      "Air",
+      "Air",
+      "Force",
+      "Arcane"
+    ],
+    "outputKeywords": [
+      "Vorpal",
+      "Phase"
+    ],
+    "fullEffect": "Distills spatial phase-shifting energy into a crystal powder providing the [Vorpal] keyword."
+  },
+  {
+    "id": "rec-master-001",
+    "name": "Vorpal Sharpening Oil",
+    "pdfName": "Vorpal Sharpening Oil",
+    "type": "Oil",
+    "tableName": "Master Crafts",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Very Rare",
+    "requiredKeywords": [
+      "Vorpal",
+      "Vorpal",
+      "Force",
+      "Arcane",
+      "Arcane",
+      "Protection",
+      "Phase",
+      "Air"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Coats a bladed weapon for 10 minutes. Weapon hits bypass non-magical resistances and critical hits deal +3d6 force damage."
+  },
+  {
+    "id": "rec-arc-001",
+    "name": "Stone Salve (Phase 1: Palliative Care)",
+    "pdfName": "Stone Salve",
+    "type": "Salve",
+    "tableName": "Campaign Arc",
+    "tool": "Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Common",
+    "requiredKeywords": [
+      "Earth",
+      "Water",
+      "Life"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Applied to afflicted villagers. Eases joint stiffness and temporarily halts stone calcification progression for 24 hours."
+  },
+  {
+    "id": "rec-arc-002",
+    "name": "Solvent of Mineral Softening (Phase 2)",
+    "pdfName": "Solvent of Mineral Softening",
+    "type": "Potion",
+    "tableName": "Campaign Arc",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Uncommon",
+    "requiredKeywords": [
+      "Acid",
+      "Water",
+      "Transformation",
+      "Arcane"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Softens hardened calcium and petrified tissue without burning living organic matrices underneath."
+  },
+  {
+    "id": "rec-arc-003",
+    "name": "Ethereal Disruption Draught (Phase 3)",
+    "pdfName": "Ethereal Disruption Draught",
+    "type": "Potion",
+    "tableName": "Campaign Arc",
+    "tool": "Alchemist's supplies",
+    "outputType": "potion",
+    "rarity": "Rare",
+    "requiredKeywords": [
+      "Phase",
+      "Arcane",
+      "Arcane",
+      "Necrotic",
+      "Life",
+      "Life",
+      "Water"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Reaches into phased petrified states to isolate and preserve the living soul matrix bound within calcified stone."
+  },
+  {
+    "id": "rec-arc-004",
+    "name": "The Vitreous Panacea (Phase 4: Ultimate Cure)",
+    "pdfName": "The Vitreous Panacea",
+    "type": "Master Cure",
+    "tableName": "Campaign Arc",
+    "tool": "Alchemist's supplies & Herbalism kit",
+    "outputType": "potion",
+    "rarity": "Legendary",
+    "requiredKeywords": [
+      "Life",
+      "Life",
+      "Arcane",
+      "Arcane",
+      "Radiant",
+      "Radiant",
+      "Transformation",
+      "Protection",
+      "Earth"
+    ],
+    "outputKeywords": [],
+    "fullEffect": "Synthesized from 4 master components. Permanently shatters petrification curses across an entire area, fully restoring flesh and life."
+  }
+]

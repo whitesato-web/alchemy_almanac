@@ -1,0 +1,10 @@
+{
+  "name": "alchemy-almanac-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/app.js && node --check src/models.js && node --check src/keyword-engine.js && node --check src/fieldcraft-engine.js && node --check src/catalog-adapters.js && node --check sw.js",
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,666 @@
+[
+  {
+    "terrain": "Arctic",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Arctic Creeper",
+        "rarity": "Common",
+        "keywords": [
+          "Water",
+          "Poison",
+          "Earth",
+          "Force"
+        ],
+        "description": "A low, gray-stemmed creeper grows among cold, high rocks. Its dried leaves can be used in common poisons that change damage to cold or necrotic."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Blueleaf",
+        "rarity": "Common",
+        "keywords": [
+          "Air",
+          "Fire",
+          "Force",
+          "Nature"
+        ],
+        "description": "Hardy trees with gleaming blue leaves withstand heavy snow and wind. Their durable wood is prized by northern craftsfolk; burning chips gives blue flames and can yield vivid blue dye."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Kanishta",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Earth",
+          "Water",
+          "Nature",
+          "Healing"
+        ],
+        "description": "A low, cold-climate creeper with broad, soft leaves and a thick, dark root beneath the soil."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Obaddis Leaf",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Life",
+          "Magic",
+          "Nature",
+          "Healing"
+        ],
+        "description": "A rare holly-like leaf retains magic when used as a druidic focus. It can amplify the area and duration of spells that target plants."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Salamander Orchid",
+        "rarity": "Rare",
+        "keywords": [
+          "Fire",
+          "Force",
+          "Nature",
+          "Healing"
+        ],
+        "description": "This orchid burns continually. With herbalism tools, its pollen can be prepared for a blade to deal extra fire damage; handling it without proper tools is hazardous."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Basilisk Breath",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Shadow",
+          "Poison",
+          "Water",
+          "Air"
+        ],
+        "description": "A small evergreen with pale berries. Their juice can be prepared as a potent paralytic poison."
+      }
+    ]
+  },
+  {
+    "terrain": "Coastal",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Cat's Tail",
+        "rarity": "Common",
+        "keywords": [
+          "Water",
+          "Nature",
+          "Transformation",
+          "Healing"
+        ],
+        "description": "A slender coastal plant with spear-shaped leaves and a single flower stalk. Its ground leaves make a salve for sore feet."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Dragonwort",
+        "rarity": "Common",
+        "keywords": [
+          "Life",
+          "Earth",
+          "Nature",
+          "Healing"
+        ],
+        "description": "This gnarled herb has wavy leaves and clustered pink flowers. Its root is used in a long-boiled infusion traditionally given during outbreaks of plague."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Air Plant",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Air",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "A sponge-like plant stores air; a piece held in the mouth provides several minutes of breathing before it wilts."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Sand Vine",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Shadow",
+          "Water",
+          "Nature",
+          "Movement"
+        ],
+        "description": "A rope-like seaweed grows above and below warm coastal water. It can be dried as cordage or processed into a topical anesthetic oil."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Ecru",
+        "rarity": "Rare",
+        "keywords": [
+          "Earth",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "Small red-leaved palms form red crystals from built-up resin. The crystal dissolves in strong acid and is used for a brief, blissful respite."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Chromus Slime",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Fire",
+          "Poison",
+          "Water",
+          "Transformation"
+        ],
+        "description": "A yellow-orange slime mold thrives in damp places. It filters salt from water and can reverse the effect of a potion or poison when properly combined."
+      }
+    ]
+  },
+  {
+    "terrain": "Desert",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Sandberry Bush",
+        "rarity": "Common",
+        "keywords": [
+          "Fire",
+          "Mind",
+          "Nature",
+          "Healing"
+        ],
+        "description": "A remote desert shrub bears small yellow berries. Their tea is used as a gentle sleep aid."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Bloodstaunch",
+        "rarity": "Common",
+        "keywords": [
+          "Earth",
+          "Healing",
+          "Water",
+          "Nature"
+        ],
+        "description": "A bright-leaved herb with a faint honey-and-rain scent grows in dry gullies. Its resin is applied to bleeding wounds."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Rose Campion",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Shadow",
+          "Poison",
+          "Protection",
+          "Nature"
+        ],
+        "description": "This green-brown herb is taken to guard against scorpion and spider stings."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Arrowroot",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Air",
+          "Earth",
+          "Nature",
+          "Healing"
+        ],
+        "description": "A woody-stemmed desert plant has shallow roots that rise into a small teepee-like structure. Its dried stem is ground into a polishing oil."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Ephedra",
+        "rarity": "Rare",
+        "keywords": [
+          "Life",
+          "Healing",
+          "Water",
+          "Nature"
+        ],
+        "description": "A small succulent bears clusters of leaves that can be dried and ground into a healing poultice or potion additive."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Dragontears",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Water",
+          "Healing",
+          "Nature",
+          "Vitality"
+        ],
+        "description": "A translucent desert succulent yields milky sap. A carefully prepared unguent promotes rapid healing; incorrect preparation can be deadly."
+      }
+    ]
+  },
+  {
+    "terrain": "Forest",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Bloodgrass",
+        "rarity": "Common",
+        "keywords": [
+          "Life",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "A red-veined grass can be ground into a paste and mixed into food or drink as a day's rations."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Blueleaf",
+        "rarity": "Common",
+        "keywords": [
+          "Air",
+          "Fire",
+          "Force",
+          "Nature"
+        ],
+        "description": "Hardy trees with gleaming blue leaves withstand heavy snow and wind. Their durable wood is prized by northern craftsfolk; burning chips gives blue flames and can yield vivid blue dye."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Weirwood Bark",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Earth",
+          "Protection",
+          "Fire",
+          "Nature"
+        ],
+        "description": "A towering, sacred tree has silver-brown leaves and velvet-dark undersides. Its wood resists ordinary fire and is valued for a clear tone in instruments."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Golden Lungwort",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Fire",
+          "Air",
+          "Mind",
+          "Nature"
+        ],
+        "description": "A foot-high herb bears spotted leaves and bell-shaped flowers that shift from pink to blue. It eases aches, though it can impair Intelligence checks for a time."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Darkberry",
+        "rarity": "Rare",
+        "keywords": [
+          "Shadow",
+          "Magic",
+          "Nature",
+          "Healing"
+        ],
+        "description": "A sparse bush bears a few purple berries rich in shadowstuff. Crushing one creates a brief sphere of magical darkness."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Kingsfruit",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Water",
+          "Healing",
+          "Nature",
+          "Vitality"
+        ],
+        "description": "A summer-flowering tree produces hard-rinded, sweet golden fruit in autumn. Eating it restores vitality and spent Hit Dice."
+      }
+    ]
+  },
+  {
+    "terrain": "Grassland",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Fairy Bells",
+        "rarity": "Common",
+        "keywords": [
+          "Air",
+          "Protection",
+          "Nature",
+          "Healing"
+        ],
+        "description": "Clusters of violet flowers ring as their seeds rattle in the breeze. The flowers are said to repel fiends, who must resist fear to approach."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Devilweed",
+        "rarity": "Common",
+        "keywords": [
+          "Fire",
+          "Force",
+          "Nature",
+          "Healing"
+        ],
+        "description": "Sharp-awned grass can be rolled and smoked, briefly improving Strength checks while hindering other ability checks."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Bloodgrass",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Life",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "A red-veined grass can be ground into a paste and mixed into food or drink as a day's rations."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Fleshwort",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Shadow",
+          "Healing",
+          "Air",
+          "Nature"
+        ],
+        "description": "A short, gray-stemmed plant with hairy leaves thrives where the dead were buried. Healers use its fibrous body to aid recovery during a short rest."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Lusiri Blossom",
+        "rarity": "Rare",
+        "keywords": [
+          "Water",
+          "Mind",
+          "Nature",
+          "Transformation"
+        ],
+        "description": "A herb with dull red, lip-shaped leaves. Ingestion brings vivid hallucinations and an urge to undertake a distant spirit quest."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Ecru",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Earth",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "Small red-leaved palms form red crystals from built-up resin. The crystal dissolves in strong acid and is used for a brief, blissful respite."
+      }
+    ]
+  },
+  {
+    "terrain": "Mountain",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Bloodstaunch",
+        "rarity": "Common",
+        "keywords": [
+          "Earth",
+          "Healing",
+          "Water",
+          "Nature"
+        ],
+        "description": "A bright-leaved herb with a faint honey-and-rain scent grows in dry gullies. Its resin is applied to bleeding wounds."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Goblinberry Bush",
+        "rarity": "Common",
+        "keywords": [
+          "Fire",
+          "Water",
+          "Nature",
+          "Healing"
+        ],
+        "description": "A dark-leaved highland bush bears sharp-smelling reddish-purple berries. Their juice is used in a pungent drink or as an astringent."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Arctic Creeper",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Water",
+          "Poison",
+          "Earth",
+          "Force"
+        ],
+        "description": "A low, gray-stemmed creeper grows among cold, high rocks. Its dried leaves can be used in common poisons that change damage to cold or necrotic."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Ephedra",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Life",
+          "Healing",
+          "Water",
+          "Nature"
+        ],
+        "description": "A small succulent bears clusters of leaves that can be dried and ground into a healing poultice or potion additive."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Seregon",
+        "rarity": "Rare",
+        "keywords": [
+          "Air",
+          "Healing",
+          "Earth",
+          "Nature"
+        ],
+        "description": "Blood-red flowers grow directly from their roots in rocky soil. Their nectar grants a short-lived reserve of vitality."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Basilisk Breath",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Shadow",
+          "Poison",
+          "Water",
+          "Air"
+        ],
+        "description": "A small evergreen with pale berries. Their juice can be prepared as a potent paralytic poison."
+      }
+    ]
+  },
+  {
+    "terrain": "Swamp",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Goblin-Trap",
+        "rarity": "Common",
+        "keywords": [
+          "Shadow",
+          "Protection",
+          "Nature",
+          "Healing"
+        ],
+        "description": "Leathery, ground-hugging plants conceal golden seed pods behind inward-pointing spines that can trap a careless hand."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Creeping Mangrove",
+        "rarity": "Common",
+        "keywords": [
+          "Water",
+          "Protection",
+          "Fire",
+          "Earth"
+        ],
+        "description": "A gnarled mangrove grows along brackish swamp edges. Its roots slowly shift toward wetter ground, and its wood burns even when soaked."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Rattlestalks",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Air",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "Tall swamp stalks hold hard seed bulbs that rattle in the wind. Local folk turn them into noisemakers that can frighten the unwary."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Corpsebomb",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Fire",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "A fungus that colonizes damp tissue forms a gas-filled spore sack. When ignited, the sack bursts in a dangerous spray of fire and spores."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Knitbone",
+        "rarity": "Rare",
+        "keywords": [
+          "Earth",
+          "Healing",
+          "Water",
+          "Nature"
+        ],
+        "description": "A tall, purple-flowered plant has hard, sharp leaves. Ground leaves and flowers are made into a healing poultice."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Tekkil",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Life",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "A swamp succulent with thick red leaves has analgesic and euphoric effects, but also makes Dexterity saves more difficult."
+      }
+    ]
+  },
+  {
+    "terrain": "Underground",
+    "entries": [
+      {
+        "rollMin": 1,
+        "rollMax": 6,
+        "name": "Fleshwort",
+        "rarity": "Common",
+        "keywords": [
+          "Shadow",
+          "Healing",
+          "Air",
+          "Nature"
+        ],
+        "description": "A short, gray-stemmed plant with hairy leaves thrives where the dead were buried. Healers use its fibrous body to aid recovery during a short rest."
+      },
+      {
+        "rollMin": 7,
+        "rollMax": 11,
+        "name": "Gravefist",
+        "rarity": "Common",
+        "keywords": [
+          "Earth",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "A pale mushroom with five knobby protrusions resembles a skeletal hand reaching up from the soil. Its spores are feared in dark cellars."
+      },
+      {
+        "rollMin": 12,
+        "rollMax": 14,
+        "name": "Corpsebomb",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Fire",
+          "Nature",
+          "Healing",
+          "Vitality"
+        ],
+        "description": "A fungus that colonizes damp tissue forms a gas-filled spore sack. When ignited, the sack bursts in a dangerous spray of fire and spores."
+      },
+      {
+        "rollMin": 15,
+        "rollMax": 17,
+        "name": "Quicksilver Lichen",
+        "rarity": "Uncommon",
+        "keywords": [
+          "Water",
+          "Poison",
+          "Protection",
+          "Nature"
+        ],
+        "description": "A glittering silver lichen can be ground into a flavorless powder that wards against poison for a short time."
+      },
+      {
+        "rollMin": 18,
+        "rollMax": 19,
+        "name": "Ghost Tendrils",
+        "rarity": "Rare",
+        "keywords": [
+          "Life",
+          "Shadow",
+          "Nature",
+          "Light"
+        ],
+        "description": "A pale fungus spreads tendrils through recent corpses and can animate them imperfectly. It avoids sunlight and is often found in crypts and caves."
+      },
+      {
+        "rollMin": 20,
+        "rollMax": 20,
+        "name": "Wispstalks",
+        "rarity": "Very Rare",
+        "keywords": [
+          "Air",
+          "Shadow",
+          "Nature",
+          "Healing"
+        ],
+        "description": "A rare cave fungus has a translucent blue cap. Proper preparation can make a creature transparent for a short time without making it invisible."
+      }
+    ]
+  }
+]

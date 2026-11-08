@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ead9b5">
+  <meta name="description" content="An offline alchemy notebook for four-keyword ingredient discovery and crafting.">
+  <title>Alchemy Notebook</title>
+  <link rel="manifest" href="../public/manifest.json">
+  <link rel="icon" href="../public/icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="Alchemy notebook">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <strong>Alchemy Notebook</strong>
+      </a>
+      <button id="install-button" class="button button-outline" type="button" hidden>Install app</button>
+    </header>
+
+    <main>
+      <div id="app-notice" class="notice" role="status" aria-live="polite" hidden></div>
+
+      <nav class="tabs" aria-label="Almanac sections">
+        <button class="tab active" type="button" data-tab="craft" aria-selected="true">Craft</button>
+        <button class="tab" type="button" data-tab="forage" aria-selected="false">Forage</button>
+        <button class="tab" type="button" data-tab="experiment" aria-selected="false">Experiment</button>
+        <button class="tab" type="button" data-tab="recipes" aria-selected="false">Recipes</button>
+        <button class="tab" type="button" data-tab="inventory" aria-selected="false">Inventory</button>
+        <button class="tab" type="button" data-tab="player" aria-selected="false">Player</button>
+        <button class="tab" type="button" data-tab="data" aria-selected="false">Import / Export</button>
+        <button class="tab" type="button" data-tab="sanity-check" aria-selected="false">Admin · SanityCheck</button>
+      </nav>
+
+      <section class="panel" data-panel="craft">
+        <div class="section-heading">
+          <h2>Craft</h2>
+          <span id="ingredient-count" class="count-pill">0 in stock</span>
+        </div>
+        <form id="craft-form" class="form-grid">
+          <label class="field field-wide">
+            <span>Recipe</span>
+            <select id="craft-recipe" required>
+              <option value="">Choose a recipe</option>
+            </select>
+          </label>
+          <div class="field field-wide">
+            <span>Ingredients · quantity per craft</span>
+            <div id="craft-ingredients" class="ingredient-choices"></div>
+          </div>
+          <label class="field">
+            <span>Quantity</span>
+            <input id="craft-quantity" type="number" min="1" step="1" value="1" required>
+          </label>
+          <div class="field field-action">
+            <span aria-hidden="true">&nbsp;</span>
+            <button class="button button-primary" type="submit">Craft</button>
+          </div>
+        </form>
+        <div id="recipe-preview" class="recipe-preview" aria-live="polite"></div>
+        <div id="craft-result" class="result" role="status" aria-live="polite" hidden></div>
+      </section>
+
+      <section class="panel" data-panel="experiment" hidden>
+        <div class="section-heading">
+          <h2>Experiment</h2>
+        </div>
+        <div class="field">
+          <span>Ingredients · quantities used in the test</span>
+          <div id="experiment-ingredients" class="ingredient-choices"></div>
+        </div>
+        <button id="experiment-button" class="button button-primary action-button" type="button">Test mixture</button>
+        <div id="experiment-result" class="result" role="status" aria-live="polite" hidden></div>
+      </section>
+
+      <section class="panel" data-panel="forage" hidden>
+        <div class="section-heading">
+          <h2>Forage</h2>
+        </div>
+        <form id="forage-form" class="form-grid">
+          <label class="field">
+            <span>Location</span>
+            <select id="forage-location" required>
+              <option value="">Loading locations...</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Search pace</span>
+            <select id="forage-method">
+              <option value="dedicated">Dedicated search · DC 12</option>
+              <option value="slow">Slow pace · DC 15</option>
+              <option value="normal">Normal pace · DC 18</option>
+              <option value="fast">Fast pace · DC 21</option>
+            </select>
+          </label>
+          <div class="field field-action">
+            <button id="forage-button" class="button button-primary" type="submit">Forage</button>
+          </div>
+        </form>
+        <div id="forage-result" class="result" role="status" aria-live="polite" hidden></div>
+        <div class="inventory-section">
+          <div class="inventory-heading"><h3>Creature harvest</h3></div>
+          <form id="harvest-form" class="form-grid harvest-form">
+            <label class="field">
+              <span>Creature</span>
+              <select id="harvest-creature" required>
+                <option value="">Loading creatures...</option>
+              </select>
+            </label>
+            <div class="field" aria-live="polite">
+              <span>Harvest skill lookup</span>
+              <div id="harvest-skill-lookup" class="harvest-skill-lookup">Select a creature to see its harvest details.</div>
+            </div>
+            <div class="field field-action">
+              <button id="harvest-button" class="button button-primary" type="submit" data-harvest-approach="standard">Harvest</button>
+              <button id="dedicated-harvest-button" class="button button-dedicated" type="submit" data-harvest-approach="dedicated" disabled>Dedicated Harvest (+ 5 DC)</button>
+            </div>
+          </form>
+          <div id="harvest-result" class="result" role="status" aria-live="polite" hidden></div>
+        </div>
+      </section>
+
+      <section class="panel" data-panel="recipes" hidden>
+        <div class="section-heading">
+          <h2>Recipes</h2>
+          <span id="recipe-count" class="count-pill">0 recipes</span>
+        </div>
+        <p class="section-copy">Recipes you have discovered through experimentation.</p>
+        <div id="recipe-list" class="item-list"></div>
+      </section>
+
+      <section class="panel" data-panel="inventory" hidden>
+        <div class="section-heading">
+          <h2>Inventory</h2>
+          <span id="inventory-count" class="count-pill">0 items</span>
+        </div>
+        <form id="inventory-form" class="form-grid inventory-entry-form">
+          <label class="field">
+            <span>Name</span>
+            <div class="ingredient-autocomplete">
+              <input id="inventory-name" type="text" maxlength="120" autocomplete="off"
+                role="combobox" aria-autocomplete="list" aria-expanded="false"
+                aria-controls="ingredient-suggestions" required>
+              <div id="ingredient-suggestions" class="ingredient-suggestions" role="listbox" hidden></div>
+            </div>
+          </label>
+          <div class="field field-action inventory-add-action">
+            <button class="button button-primary" type="submit">Add ingredient</button>
+          </div>
+        </form>
+        <div id="inventory-groups" class="inventory-groups"></div>
+      </section>
+
+      <section class="panel" data-panel="player" hidden>
+        <div class="section-heading">
+          <h2>Player</h2>
+        </div>
+        <form id="player-form" class="form-grid">
+          <label class="field">
+            <span>Level</span>
+            <input id="player-level" type="number" min="1" max="20" step="1" value="1" required>
+          </label>
+          <fieldset class="player-fieldset field-wide">
+            <legend>Ability scores</legend>
+            <div id="player-abilities" class="ability-grid"></div>
+          </fieldset>
+          <fieldset class="player-fieldset field-wide">
+            <legend>Skills</legend>
+            <div class="skill-header" aria-hidden="true"><span>Skill</span><span>Proficient</span><span>Expertise</span><span>Modifier</span></div>
+            <div id="player-skills" class="skill-list"></div>
+          </fieldset>
+          <fieldset class="player-fieldset field-wide">
+            <legend>Alchemy tools</legend>
+            <div class="tool-training-list">
+              <label class="checkbox-field"><input id="player-herbalism-kit" type="checkbox"><span>Herbalism Kit owned</span></label>
+              <label class="checkbox-field"><input id="player-herbalism-proficient" type="checkbox"><span>Herbalism Kit proficiency</span></label>
+              <label class="checkbox-field"><input id="player-alchemist-supplies" type="checkbox"><span>Alchemist's Supplies owned</span></label>
+              <label class="checkbox-field"><input id="player-alchemist-proficient" type="checkbox"><span>Alchemist's Supplies proficiency</span></label>
+            </div>
+          </fieldset>
+          <div class="field field-wide field-action">
+            <button class="button button-primary" type="submit">Save character</button>
+          </div>
+        </form>
+        <div class="inventory-section">
+          <div class="inventory-heading"><h3>Discovered keywords</h3></div>
+          <div id="player-keywords" class="keyword-list"></div>
+        </div>
+      </section>
+
+      <section class="panel" data-panel="data" hidden>
+        <div class="section-heading">
+          <h2>Import / Export</h2>
+        </div>
+        <form id="import-form" class="form-grid">
+          <label class="field">
+            <span>Import</span>
+            <select id="import-type">
+              <option value="backup">Almanac backup (JSON)</option>
+              <option value="recipes">Recipes sheet (CSV)</option>
+              <option value="inventory">Inventory sheet (CSV)</option>
+              <option value="forage">Forage table (CSV)</option>
+            </select>
+          </label>
+          <label class="field field-wide">
+            <span>File</span>
+            <input id="import-file" type="file" accept=".json,.csv,application/json,text/csv" required>
+          </label>
+          <div class="field field-action">
+            <button class="button button-primary" type="submit">Import file</button>
+          </div>
+        </form>
+        <button id="export-button" class="button button-outline" type="button">Download full backup</button>
+      </section>
+
+      <section class="panel" data-panel="sanity-check" hidden>
+        <div class="section-heading">
+          <h2>Admin · SanityCheck</h2>
+        </div>
+        <p class="section-copy">Administrative catalog diagnostics. This panel is for checking data quality and is not part of player-facing gameplay.</p>
+        <div id="catalog-diagnostics" aria-live="polite"></div>
+        <p class="section-copy">Sources counts Flora and Fauna catalog entries, plus intermediate recipe products, once per keyword. Recipe uses counts required keyword slots; repeated keywords count separately. Delta is the absolute difference between Sources and Recipe uses. Select a column heading to sort.</p>
+        <div id="keyword-audit" class="keyword-audit" aria-live="polite"></div>
+      </section>
+    </main>
+
+  </div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('../sw.js', { scope: '../' })
+          .catch(error => {
+            const notice = document.getElementById('app-notice');
+            notice.hidden = false;
+            notice.textContent = `Offline support could not be enabled: ${error.message}`;
+            notice.classList.add('notice-error');
+          });
+      });
+    }
+  </script>
+</body>
+</html>

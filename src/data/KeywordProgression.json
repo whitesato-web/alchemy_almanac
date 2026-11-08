@@ -1,0 +1,207 @@
+{
+  "_comment": "DESIGN PHILOSOPHY & SYSTEM RULES: Lean and modular keyword system. Alchemy relies on material, elemental, and physical transmutation. Specific locomotion (climbing, swimming, burrowing) and mental effects emerge from combining base keywords rather than bloating the pool with niche tags. High-tier effects use keyword duplication or advanced combinations within the 4-slot recipe limit.",
+  "systemName": "Alchemist Almanac Keyword System",
+  "version": "3.1",
+  "playerUnlockMatrix": {
+    "level1": "Keyword 1 (Primary Base)",
+    "level5": "Keywords 1 and 2",
+    "level10": "Keywords 1, 2, and 3",
+    "level15": "All 4 Keywords (Mastery)"
+  },
+  "coreKeywords": [
+    "Fire",
+    "Cold",
+    "Lightning",
+    "Acid",
+    "Poison",
+    "Necrotic",
+    "Radiant",
+    "Earth",
+    "Water",
+    "Air",
+    "Life",
+    "Creature",
+    "Movement",
+    "Phase",
+    "Force",
+    "Mind",
+    "Protection",
+    "Transformation",
+    "Arcane",
+    "Vorpal"
+  ],
+  "keywordGroupings": {
+    "Elemental & Energy": {
+      "Fire": {
+        "base": "Fire",
+        "description": "Thermal energy, combustion, and intense heat."
+      },
+      "Water": {
+        "base": "Water",
+        "description": "Fluidity, ocean depths, and aquatic currents."
+      },
+      "Earth": {
+        "base": "Earth",
+        "description": "Minerals, rock, and physical density."
+      },
+      "Air": {
+        "base": "Air",
+        "description": "Atmospheric pressure, wind, and gas."
+      },
+      "Cold": {
+        "base": "Cold",
+        "description": "Thermal dissipation and freezing temperatures."
+      },
+      "Lightning": {
+        "base": "Lightning",
+        "description": "Electrical charge and rapid discharge."
+      },
+      "Thunder": {
+        "base": "Thunder",
+        "description": "Sonic vibration and concussive pressure."
+      },
+      "Necrotic": {
+        "base": "Necrotic",
+        "description": "Entropy, decay, and life-withering forces."
+      },
+      "Radiant": {
+        "base": "Radiant",
+        "description": "Luminescence, divine illumination, and holy energy."
+      },
+      "Acid": {
+        "base": "Acid",
+        "description": "Corrosive chemical breakdown."
+      },
+      "Poison": {
+        "base": "Poison",
+        "description": "Biological toxins and paralytic venoms."
+      }
+    },
+    "Biological & Essence": {
+      "Life": {
+        "base": "Life",
+        "description": "Restorative biological energy and physical healing."
+      },
+      "Creature": {
+        "base": "Creature",
+        "description": "Origin essences from specific creature taxonomies."
+      }
+    },
+    "Movement & Spatial": {
+      "Traversal": {
+        "base": "Movement",
+        "description": "Kinetic acceleration and stride enhancement. Specialized movement (climbing, swimming, burrowing) is achieved via elemental combinations."
+      },
+      "Spatial": {
+        "base": "Phase",
+        "description": "Short-range spatial displacement progressing to full phase-shifting."
+      }
+    },
+    "Utility & Mental": {
+      "Force": {
+        "base": "Force",
+        "description": "Kinetic impact, kinetic barriers, and concentrated pressure."
+      },
+      "Protection": {
+        "base": "Protection",
+        "description": "Warding, damage mitigation, and defensive reinforcement."
+      },
+      "Mind": {
+        "base": "Mind",
+        "description": "Cognitive enhancement, sensory perception, languages, telepathy, and mental restoration."
+      },
+      "Transformation": {
+        "base": "Transformation",
+        "description": "Polymorph, physical shape-shifting, and structural adaptation."
+      }
+    },
+    "Mastery & Legend": {
+      "Arcane": {
+        "base": "Arcane",
+        "description": "Gated high-tier magic catalyst. Synthesized via intermediate crafts."
+      },
+      "Vorpal": {
+        "base": "Vorpal",
+        "description": "Mythic sharpness and spatial severing. Unlocked via high-tier intermediate combinations."
+      }
+    }
+  },
+  "emergentCombinations": [
+    {
+      "ingredients": [
+        "Movement",
+        "Earth"
+      ],
+      "resultEffect": "Climbing / Surface Scaling"
+    },
+    {
+      "ingredients": [
+        "Movement",
+        "Water"
+      ],
+      "resultEffect": "Swimming / Aquatic Displacement"
+    },
+    {
+      "ingredients": [
+        "Movement",
+        "Earth",
+        "Earth"
+      ],
+      "resultEffect": "Burrowing Speed"
+    },
+    {
+      "ingredients": [
+        "Air",
+        "Water",
+        "Life"
+      ],
+      "resultEffect": "Water Breathing"
+    },
+    {
+      "ingredients": [
+        "Fire",
+        "Light"
+      ],
+      "resultEffect": "Radiant Energy"
+    },
+    {
+      "ingredients": [
+        "Necrotic",
+        "Shadow"
+      ],
+      "resultEffect": "Blight Entropy"
+    },
+    {
+      "ingredients": [
+        "Earth",
+        "Water",
+        "Air",
+        "Fire"
+      ],
+      "resultKeyword": "Arcane",
+      "resultItem": "Arcane Catalyst Dust"
+    },
+    {
+      "ingredients": [
+        "Phase",
+        "Phase",
+        "Air",
+        "Air"
+      ],
+      "resultKeyword": "Vorpal",
+      "resultItem": "Void-Glass Powder"
+    }
+  ],
+  "recipeCapacityRules": {
+    "maxIngredientsPerBatch": 4,
+    "maxKeywordsPerRecipe": 9,
+    "scalingByRarity": {
+      "Common": "1 to 2 required keywords",
+      "Uncommon": "3 to 4 required keywords",
+      "Rare": "5 to 6 required keywords",
+      "Very Rare": "7 to 8 required keywords",
+      "Legendary / Story Item": "9 required keywords (maximum for narrative-specific ultimate crafts)"
+    },
+    "rationale": "High-level recipes require up to 8 keywords (9 for narrative story items). Because 4 raw reagents contribute mixed keywords that rarely align to specific targets, players MUST use distilled Intermediate Catalysts to hit high keyword densities."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Alchemist Almanac",
+  "short_name": "Almanac",
+  "id": "../src/index.html",
+  "start_url": "../src/index.html",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#f5e9cf",
+  "theme_color": "#ead9b5",
+  "description": "An offline alchemy notebook for four-keyword ingredient discovery and crafting.",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+[
+  {
+    "id": "fauna-001",
+    "name": "Goblin",
+    "creatureType": "Humanoid",
+    "challengeRating": "1/4",
+    "habitat": [
+      "Forest",
+      "Underground"
+    ],
+    "normalHarvest": {
+      "itemName": "Goblin Ear",
+      "rarity": "Common",
+      "quantity": 2,
+      "keywords": [
+        "Creature",
+        "Mind",
+        "Movement",
+        "Life"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Goblin Shamanic Tooth",
+      "rarity": "Uncommon",
+      "quantity": 1,
+      "keywords": [
+        "Creature",
+        "Mind",
+        "Arcane",
+        "Life"
+      ]
+    }
+  },
+  {
+    "id": "fauna-002",
+    "name": "Kobold",
+    "creatureType": "Humanoid",
+    "challengeRating": "1/8",
+    "habitat": [
+      "Underground",
+      "Mountain"
+    ],
+    "normalHarvest": {
+      "itemName": "Kobold Venom Gland",
+      "rarity": "Common",
+      "quantity": 1,
+      "keywords": [
+        "Fire",
+        "Creature",
+        "Poison",
+        "Force"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Draconic Scale Shaving",
+      "rarity": "Uncommon",
+      "quantity": 2,
+      "keywords": [
+        "Fire",
+        "Creature",
+        "Protection",
+        "Earth"
+      ]
+    }
+  },
+  {
+    "id": "fauna-003",
+    "name": "Ghoul",
+    "creatureType": "Undead",
+    "challengeRating": "2",
+    "habitat": [
+      "Underground",
+      "Crypts"
+    ],
+    "normalHarvest": {
+      "itemName": "Ghoul Fang",
+      "rarity": "Uncommon",
+      "quantity": 2,
+      "keywords": [
+        "Necrotic",
+        "Poison",
+        "Movement",
+        "Creature"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Necrotic Salivary Gland",
+      "rarity": "Rare",
+      "quantity": 1,
+      "keywords": [
+        "Necrotic",
+        "Necrotic",
+        "Poison",
+        "Creature"
+      ]
+    }
+  },
+  {
+    "id": "fauna-004",
+    "name": "Owlbear",
+    "creatureType": "Monstrosity",
+    "challengeRating": "3",
+    "habitat": [
+      "Forest",
+      "Mountain"
+    ],
+    "normalHarvest": {
+      "itemName": "Owlbear Beak Scrapings",
+      "rarity": "Uncommon",
+      "quantity": 1,
+      "keywords": [
+        "Creature",
+        "Earth",
+        "Earth",
+        "Life"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Pristine Owlbear Talon",
+      "rarity": "Rare",
+      "quantity": 2,
+      "keywords": [
+        "Creature",
+        "Creature",
+        "Earth",
+        "Force"
+      ]
+    }
+  },
+  {
+    "id": "fauna-005",
+    "name": "Gelatinous Cube",
+    "creatureType": "Ooze",
+    "challengeRating": "2",
+    "habitat": [
+      "Underground"
+    ],
+    "normalHarvest": {
+      "itemName": "Gelatinous Residue",
+      "rarity": "Uncommon",
+      "quantity": 2,
+      "keywords": [
+        "Acid",
+        "Water",
+        "Force",
+        "Transformation"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Consolidated Acid Core",
+      "rarity": "Rare",
+      "quantity": 1,
+      "keywords": [
+        "Acid",
+        "Acid",
+        "Water",
+        "Force"
+      ]
+    }
+  },
+  {
+    "id": "fauna-006",
+    "name": "Displacer Beast",
+    "creatureType": "Monstrosity",
+    "challengeRating": "3",
+    "habitat": [
+      "Forest"
+    ],
+    "normalHarvest": {
+      "itemName": "Displacer Tentacle Tip",
+      "rarity": "Rare",
+      "quantity": 2,
+      "keywords": [
+        "Phase",
+        "Movement",
+        "Mind",
+        "Force"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Void-Shifted Pelt Strip",
+      "rarity": "Rare",
+      "quantity": 1,
+      "keywords": [
+        "Phase",
+        "Phase",
+        "Mind",
+        "Protection"
+      ]
+    }
+  },
+  {
+    "id": "fauna-007",
+    "name": "Basilisk",
+    "creatureType": "Monstrosity",
+    "challengeRating": "3",
+    "habitat": [
+      "Underground"
+    ],
+    "normalHarvest": {
+      "itemName": "Basilisk Gland",
+      "rarity": "Uncommon",
+      "quantity": 1,
+      "keywords": [
+        "Earth",
+        "Transformation",
+        "Poison",
+        "Life"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Petrifying Eye Lens",
+      "rarity": "Rare",
+      "quantity": 2,
+      "keywords": [
+        "Earth",
+        "Earth",
+        "Transformation",
+        "Mind"
+      ]
+    }
+  },
+  {
+    "id": "fauna-008",
+    "name": "Gorgon",
+    "creatureType": "Monstrosity",
+    "challengeRating": "5",
+    "habitat": [
+      "Plains",
+      "Underground"
+    ],
+    "normalHarvest": {
+      "itemName": "Gorgon Stomach Lining",
+      "rarity": "Rare",
+      "quantity": 1,
+      "keywords": [
+        "Earth",
+        "Earth",
+        "Transformation",
+        "Force"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Iron-Bull Horn",
+      "rarity": "Very Rare",
+      "quantity": 2,
+      "keywords": [
+        "Earth",
+        "Earth",
+        "Earth",
+        "Force"
+      ]
+    }
+  },
+  {
+    "id": "fauna-009",
+    "name": "Human Wizard / Cultist",
+    "creatureType": "Humanoid",
+    "challengeRating": "3",
+    "habitat": [
+      "Urban",
+      "Underground",
+      "Towers"
+    ],
+    "normalHarvest": {
+      "itemName": "Alchemical Reagent Pouch",
+      "rarity": "Uncommon",
+      "quantity": 1,
+      "keywords": [
+        "Arcane",
+        "Water",
+        "Earth",
+        "Fire"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Pristine Focus Crystal",
+      "rarity": "Rare",
+      "quantity": 1,
+      "keywords": [
+        "Arcane",
+        "Arcane",
+        "Mind",
+        "Radiant"
+      ]
+    }
+  },
+  {
+    "id": "fauna-010",
+    "name": "Lich",
+    "creatureType": "Undead",
+    "challengeRating": "21",
+    "habitat": [
+      "Crypts",
+      "Towers"
+    ],
+    "normalHarvest": {
+      "itemName": "Phylactery Residue Shard",
+      "rarity": "Legendary",
+      "quantity": 1,
+      "keywords": [
+        "Necrotic",
+        "Arcane",
+        "Arcane",
+        "Life"
+      ]
+    },
+    "criticalHarvest": {
+      "itemName": "Soul-Bound Essence Core",
+      "rarity": "Legendary",
+      "quantity": 1,
+      "keywords": [
+        "Necrotic",
+        "Necrotic",
+        "Arcane",
+        "Arcane"
+      ]
+    }
+  }
+]

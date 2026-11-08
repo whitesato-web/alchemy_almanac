@@ -1,0 +1,5 @@
+node_modules/
+site-dist/
+pdf-ocr-temp.txt
+.DS_Store
+Thumbs.db
